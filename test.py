@@ -1,12 +1,32 @@
-value = "abb"
-print("value[0]=========", value[0])
-print("value[1:3]=========", value[1:3])
-print("value[3:]=========", value[3:])
-# print("value[4]=======", value.get)
+# n = 6
+# n = 49
+# n = 637759701
+# count = 0
+# for i in range(1, n+1):
+#     if n%i == 0:
+#         count += 1
 
-if (len(value)>=4) and (value[3]=='a'):
-    print("valid")
-else:
-    print("invalid")
+# print(count)
 
-# print("value[-1]=========", value[-1])
+# A = 4
+# prime = 1
+# i = 2
+# while i<A:
+#     if A%i == 0:
+#         prime = 0
+#         break
+#     i += 1
+
+# print("prime=======", prime)
+
+import math
+
+A = 1332
+# sqrt_value = math.sqrt(A)
+# print(sqrt_value)
+
+sqrt_value = int(math.sqrt(A))
+
+print((sqrt_value * sqrt_value) == A)
+
+
